@@ -47,3 +47,9 @@
     transform: translateX(-100%);
   }
 }
+
+#carouselHome
+{
+  margin-left: 10%;
+  margin-right: 10%;
+}
