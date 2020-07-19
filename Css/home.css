@@ -53,3 +53,24 @@
   margin-left: 10%;
   margin-right: 10%;
 }
+
+#header, #subheader
+{
+  text-decoration: underline;
+}
+
+#header
+{
+  padding: 1% 0% 1% 0%;
+}
+
+.section
+{
+  padding-bottom: 5%;
+}
+
+.peekPic
+{
+  height: 200px;
+  width: 200px;
+}
