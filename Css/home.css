@@ -54,6 +54,21 @@
   margin-right: 10%;
 }
 
+#carouselDiv
+{
+  background-color: #000000;
+}
+
+.carouselParagraph
+{
+  background-color: black;
+  width: 300px;
+  height: auto;
+  position: relative;
+  margin: auto;
+
+}
+
 #header, #subheader
 {
   text-decoration: underline;
