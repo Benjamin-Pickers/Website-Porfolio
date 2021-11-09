@@ -1,26 +1,35 @@
+:root
+{
+    --bgcolour: #3AAFA9;
+    --secondarybgcolour: #2B7A78;
+    --borderradius: 15px;
+    --textcolour: #DEF2F1;
+}
+
 body
 {
-  background-color: black;
+  background-color: var(--bgcolour);
 }
 
 .sneakPeakParagraph
 {
-  background-color: #190061;
+  background-color: var(--secondarybgcolour);
+  border-radius: var(--borderradius);
 }
 
 .sneakPeakText
 {
-  color: white;
+  color: var(--textcolour);
 }
 
 .nav-link
 {
-  color: #B60DFF;
+  color: var(--textcolour);
   font-size: 25px;
 }
 .nav-link:hover
 {
-  color: #721572;
+  color: #17252A;
 }
 
 .toggle-button
@@ -73,16 +82,18 @@ body
 
 #carouselDiv
 {
-  background-color: #000000;
+  background-color: var(--bgcolour);
 }
 
 .carouselParagraph
 {
-  background-color:  #190061;
+  background-color:  var(--secondarybgcolour);
+  color: var(--textcolour);
   width: 300px;
   height: auto;
   position: relative;
   margin: auto;
+  border-radius: var(--borderradius);
 
 }
 
