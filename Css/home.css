@@ -1,9 +1,9 @@
 :root
 {
-    --bgcolour: #3AAFA9;
-    --secondarybgcolour: #2B7A78;
+    --bgcolour: #57BA98;
+    --secondarybgcolour: #3B945E;
     --borderradius: 15px;
-    --textcolour: #DEF2F1;
+    --textcolour: #F2F2F2;
 }
 
 body
@@ -15,6 +15,12 @@ body
 {
   background-color: var(--secondarybgcolour);
   border-radius: var(--borderradius);
+}
+
+.navbar
+{
+  background-color: var(--secondarybgcolour);
+  margin-bottom: 1%;
 }
 
 .sneakPeakText
@@ -29,7 +35,7 @@ body
 }
 .nav-link:hover
 {
-  color: #17252A;
+  color: #182628;
 }
 
 .toggle-button
@@ -124,4 +130,17 @@ body
 
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+footer
+{
+  width: 100%;
+  background-color: var(--secondarybgcolour);
+}
+
+.githubLink
+{
+  width: 25px;
+  height: 25px;
+  padding: 2px;
 }
