@@ -17,13 +17,19 @@ body
   border-radius: var(--borderradius);
 }
 
+.aboutParagraph
+{
+  background-color: var(--secondarybgcolour);
+  border-radius: var(--borderradius);
+}
+
 .navbar
 {
   background-color: var(--secondarybgcolour);
   margin-bottom: 1%;
 }
 
-.sneakPeakText
+.textcolour
 {
   color: var(--textcolour);
 }
