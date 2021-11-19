@@ -11,16 +11,16 @@ body
   background-color: var(--bgcolour);
 }
 
-.sneakPeakParagraph
+.sectionParagraph
 {
   background-color: var(--secondarybgcolour);
   border-radius: var(--borderradius);
 }
 
-.aboutParagraph
+#contactLink
 {
-  background-color: var(--secondarybgcolour);
-  border-radius: var(--borderradius);
+  color: #1105A5;
+
 }
 
 .navbar
