@@ -13,27 +13,25 @@
     <main class="flex-fill">
 
       <!-- Menu bar on top of the page-->
-      <nav class="navbar center navbar-expand-lg">
-        <button class="navbar-toggler" type="button" data-trigger="#mainNav">
-          <img src="pics/toggle.png" alt="toggle" class="toggle-button">
+      <nav class="navbar center navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="navbar-collapse justify-content-center" id="mainNav">
-          <div class="offcanvas-header mt-3">
-            <button class="btn btn-outline-danger btn-close close-toggle"> &times Close </button>
-          </div>
-          <ul class="nav justify-content-center" id="navText">
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo01">
+          <ul class="navbar-nav justify-content-center" id="navText">
               <li class="nav-item">
                 <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#aboutSection">About</a>
+                <a class="nav-link" id="navText" href="#aboutSection">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#projectSection">Projects</a>
+                <a class="nav-link" id="navText" href="#projectSection">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" id="navText" href="#contactSection">Contact</a>
               </li>
           </ul>
         </div>
@@ -154,6 +152,12 @@
               <img class="img-fluid" src="Pics/git_scripts.png" alt="Git-scripts">
             </div>
           </div>
+      </div>
+
+      <!-- Contact Section -->
+      <div class="container" id="contactSection">
+        <div><h3 id="header" class="textcolour"> Contact Info </h3></div>
+
       </div>
 
       <footer>
