@@ -96,75 +96,85 @@
     </div>
 
     <!-- About section -->
-    <div class="container" id="aboutSection">
-      <div><h3 id="header" class="textcolour"> About </h3></div>
-      <div class="section row">
-        <div class="col-12 sectionParagraph">
+    <div class="section d-flex" id="aboutSection">
+      <div class="aboutheader flex-fill">
+          <h2 id="header" class="textcolour"> About</h2>
+      </div>
+    </div>
+
+      <div class="about d-flex flex-row">
+        <div class="innerdiv flex-fill">
           <p class="textcolour">
-            Hey, my name is Benjamin Pickers and I am a fourth year student at York University. My major is Computer Science with a minor in applied mathematics and my fields of interest are data analysis and database management. I have experience in building web applications,
+            Hey, my name is Benjamin Pickers and I am a fourth year student at York University. I am majoring in Computer Science with a minor in applied mathematics. My fields of interest are data analysis and database management. I have experience in building web applications,
             creating and maintaining databases, and data analysis through my current internship and personal projects. I have also gained expereince using Java, Python (Flask and Django frameworks), JavaScript, C, PostgreSQL, Bash and many other languages through school, work and personal projects.
             I am dedicated and interested in learning new and innovative technology, software, and programming languages. I'm currently looking for a challenging intern position for summer 2022 to expand my knowledge and skills while making a significant contribution to the success of the company.
           </p>
         </div>
       </div>
-    </div>
 
       <!-- Project SneakPeek section -->
-      <div class="container" id="projectSection">
-        <div><h3 id="header" class="textcolour"> Projects </h3></div>
 
-          <div class="section row">
-            <div class="col-8 sectionParagraph">
-              <h4 id="subheader" class="textcolour"> Stock Tracker</h4>
-              <p class="textcolour">Web application that allows users to create an account and track their favourite stocks with real-time prices.</p>
-            </div>
-            <div class="col-4">
-                <img class="img-fluid" src="Pics/stock_tracker.png" alt="Stock-Tracker-Website">
-            </div>
-          </div>
+      <div class="section d-flex" id="projectSection">
+        <div class="projectheader flex-fill">
+            <h2 id="header" class="textcolour"> Projects</h2>
+        </div>
+      </div>
 
-          <div class="section row">
-            <div class="col-8 sectionParagraph">
-              <h4 id="subheader" class="textcolour"> Matrix Calculator</h4>
-              <p class="textcolour">Online calculator that allows the user to perform matrix operations on various sized matrices. Some of these operations include matrix multiplcation, inverse and determinant, with new operations constantly being implemented.</p>
-            </div>
-            <div class="col-4">
-              <img class="img-fluid" src="Pics/matrix_calc.png" alt="Matrix-Calculator-Website">
-            </div>
-          </div>
+      <div class="stockpara d-flex flex-row">
+        <div class="innerdiv">
+          <h4 id="subheader" class="textcolour"> Stock Tracker</h4>
+          <p class="textcolour">Web application that allows users to create an account and track their favourite stocks with real-time prices. The application uses Pythons Flask framework on the back-end and basic HTML5, CSS and BootStrap for the front-end.
+          The site can be accessed at <a id="contactLink" href="http://flaskstock.ca" target="_blank">flaskstock.ca</a>, although the server is currently down for upgrades. </p>
+        </div>
+        <div class="innerdiv">
+            <img class="img-fluid" src="Pics/stock_tracker.png" alt="Stock-Tracker-Website">
+        </div>
+      </div>
 
-          <div class="section row">
-            <div class="col-8 sectionParagraph">
-              <h4 id="subheader" class="textcolour"> CWBTech Web Application</h4>
-              <p class="textcolour">Web application that allows CWBTech employees to enter company data, such as inventory and daily production values, into the company database. Application also allows users to retrieve data and perform analysis on that data</p>
-            </div>
-            <div class="col-4">
-              <img class="img-fluid" src="Pics/greenwell.jpg" alt="CWBTech-Application-Website">
-            </div>
-          </div>
+      <div class="matrixpara d-flex flex-row">
+        <div class="innerdiv">
+          <h4 id="subheader" class="textcolour"> Matrix Calculator</h4>
+          <p class="textcolour">Online calculator that allows the user to perform matrix operations on various sized matrices. Some of these operations include matrix multiplcation, inverse and determinant, with new operations constantly being implemented.
+          This site is satic and was made using JavaScript, basic HTML and CSS. The site can be accessed at <a id="contactLink" href="https://matrixcalc.ca/" target="_blank">matrixcalc.ca</a></p>
+        </div>
+        <div class="innerdiv">
+          <img class="img-fluid" src="Pics/matrix_calc.png" alt="Matrix-Calculator-Website">
+        </div>
+      </div>
 
-          <div class="section row">
-            <div class="col-8 sectionParagraph">
-              <h4 id="subheader" class="textcolour"> Git Bash Scripts</h4>
-              <p class="textcolour">Bash scripts to make git make git commands easier</p>
-            </div>
-            <div class="col-4">
-              <img class="img-fluid" src="Pics/git_scripts.png" alt="Git-scripts">
-            </div>
-          </div>
+      <div class="cwbpara d-flex flex-row">
+        <div class="innerdiv">
+          <h4 id="subheader" class="textcolour"> CWBTech Web Application</h4>
+          <p class="textcolour">Web application that allows CWBTech employees to enter company data, such as inventory and daily production values, into the company database. The application also allows users to retrieve data and perform analysis on that data</p>
+        </div>
+        <div class="innerdiv">
+          <img class="img-fluid" src="Pics/greenwell.jpg" alt="CWBTech-Application-Website">
+        </div>
+      </div>
+
+      <div class="gitpara d-flex flex-row">
+        <div class="innerdiv">
+          <h4 id="subheader" class="textcolour"> Git Bash Scripts</h4>
+          <p class="textcolour">Bash scripts to make git make git commands easier</p>
+        </div>
+        <div class="innerdiv">
+          <img class="img-fluid" src="Pics/git_scripts.png" alt="Git-scripts">
+        </div>
       </div>
 
       <!-- Contact Section -->
-      <div class="container" id="contactSection">
-        <div><h3 id="header" class="textcolour"> Contact Info </h3></div>
+      <div class="section d-flex" id="contactSection">
+        <div class="contactheader flex-fill">
+            <h2 id="header" class="textcolour"> Contact </h2>
+        </div>
+      </div>
 
-        <div class="section row">
-          <div class="col-12 sectionParagraph">
-            <p class="textcolour"> You can reach me at my email or checkout my Github and LinkedIn profiles. </p>
-            <p class="textcolour">Email: ben10picker@gmail.com</p>
-            <p class="textcolour">GitHub: <a id="contactLink" href="https://github.com/Benjamin-Pickers">github.com/Benjamin-Pickers</a></p>
-            <p class="textcolour">LinkedIn: <a id="contactLink" href="https://www.linkedin.com/in/ben-pickers/">linkedin.com/in/ben-pickers</a></p>
-          </div>
+      <div class="contact d-flex flex-row">
+        <div class="innerdiv">
+          <p class="textcolour"> You can reach me at my email or checkout my Github and LinkedIn profiles. </p>
+          <p class="textcolour">Email: ben10picker@gmail.com</p>
+          <p class="textcolour">GitHub: <a id="contactLink" href="https://github.com/Benjamin-Pickers">github.com/Benjamin-Pickers</a></p>
+          <p class="textcolour">LinkedIn: <a id="contactLink" href="https://www.linkedin.com/in/ben-pickers/">linkedin.com/in/ben-pickers</a></p>
         </div>
       </div>
 

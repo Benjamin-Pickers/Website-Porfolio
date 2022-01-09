@@ -13,13 +13,12 @@ body
 
 .sectionParagraph
 {
-  background-color: var(--secondarybgcolour);
-  border-radius: var(--borderradius);
+  padding: 0% 1% 1% 1%
 }
 
 #contactLink
 {
-  color: #1105A5;
+  color: #DAE966;
 
 }
 
@@ -54,6 +53,7 @@ body
 #carouselDiv
 {
   background-color: var(--bgcolour);
+  margin: 5% 0% 5% 0%;
 }
 
 .carouselParagraph
@@ -76,11 +76,60 @@ body
 #header
 {
   padding: 1% 0% 1% 0%;
+  margin-left: 45%
 }
 
-.section
+.innerdiv
 {
-  padding-bottom: 5%;
+  margin: 3% 2% 3% 2%;
+}
+
+.aboutheader
+{
+  background-color: #0C2D48;
+  padding: 10% 0% 10% 0%;
+}
+
+.about
+{
+  background-color: #145DA0;
+}
+
+.projectheader
+{
+  background-color: #1E4E4B;
+  padding: 10% 0% 10% 0%;
+}
+
+.stockpara
+{
+  background-color: #2A9B77;
+}
+
+.matrixpara
+{
+  background-color: #078C62;
+}
+
+.cwbpara
+{
+  background-color: #006C5F;
+}
+
+.gitpara
+{
+  background-color: #4B9289;
+}
+
+.contactheader
+{
+  background-color: #45376B;
+  padding: 10% 0% 10% 0%;
+}
+
+.contact
+{
+  background-color: #5E4B92;
 }
 
 .peekPic
